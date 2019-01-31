@@ -1,0 +1,51 @@
+* {
+  direction: rtl;
+}
+
+body,
+h1,
+h2,
+h4,
+span,
+div,
+p,
+a li,
+ul {
+  direction: rtl;
+}
+
+.myma_right {
+  height: 500px;
+  background: #2acec3;
+}
+
+.card {
+  background: #2acec3;
+  width: 105%;
+}
+
+.card .card-header {
+  text-align: right;
+}
+
+.card .card-header .mb-0 .btn-link {
+  color: #000;
+}
+
+.card ul {
+  padding: 0px 0px !important;
+}
+
+.card ul li {
+  background: #0f3e3099;
+  text-align: center;
+}
+
+.card ul li a {
+  color: black;
+}
+
+.navbar {
+  background: #5bd4b1;
+}
+

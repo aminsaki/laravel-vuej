@@ -1,0 +1,36 @@
+
+
+table {
+  text-align: center;
+
+  thead {
+    background: #6574cd;
+
+    tr {
+      th {
+        color: white;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        color: white;
+      }
+    }
+  }
+}
+
+.navbar-laravel {
+  ul {
+    li {
+      color: white;
+      a {
+        color: white;
+      }
+    }
+  }
+
+  background: #3cb7ae;
+}

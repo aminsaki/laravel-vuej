@@ -243,41 +243,6 @@
               <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ticket" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -355,12 +320,12 @@
       <workItem from="1548618272918" duration="1641000" />
       <workItem from="1548692360528" duration="7565000" />
       <workItem from="1548946096160" duration="5175000" />
-      <workItem from="1548962469642" duration="1351000" />
+      <workItem from="1548962469642" duration="1616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89020000" />
+    <option name="totallyTimeSpent" value="89285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

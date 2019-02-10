@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5f4c0a8-15e0-486e-aeae-df8bd328996f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/HomeComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/InsertComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/InsertComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/UsersComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/UsersComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admins/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admins/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admins/showUsrs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admins/showUsrs.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admins/templates/rightMuneAdmin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admins/templates/rightMuneAdmin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app_admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="a5f4c0a8-15e0-486e-aeae-df8bd328996f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="32">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#87#111#0" expanded="true" />
               </folding>
@@ -441,12 +424,12 @@
       <workItem from="1549568461783" duration="2007000" />
       <workItem from="1549610779041" duration="5524000" />
       <workItem from="1549698296687" duration="8932000" />
-      <workItem from="1549807479248" duration="3952000" />
+      <workItem from="1549807479248" duration="4820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139711000" />
+    <option name="totallyTimeSpent" value="140579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,7 +442,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18814056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,7 +456,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.760709" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.760709" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290735" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3290735" />
@@ -807,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="32">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#87#111#0" expanded="true" />
           </folding>

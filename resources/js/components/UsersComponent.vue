@@ -1,9 +1,14 @@
 <template>
     <div class="container">
+
         <div class="form-group">
-            <a href="/create" class="btn btn-success">Add USERS</a>
+            <!--<a href="/" class="btn btn-success">Add USERS</a>-->
+            <router-link to="/admin">home</router-link>
+
+            <router-link to="create" class="btn btn-success">Add Users</router-link>
 
         </div>
+
 
         <div class="form-group">
             ‌ <lable> Sreach by  name </lable>
@@ -49,7 +54,7 @@
 </template>
 <script>
     export default {
-         name:  'users',
+         name:  'Users',
         data() {
             return {
                 users: {},

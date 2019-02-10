@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.app_admin')
 @section('content')
     <!--*********Header********/-->
     @include('admins.templates.headerTopAdmin')
@@ -9,7 +9,7 @@
             @include('admins.templates.rightMuneAdmin')
         </div>
         <div class="col-md-8">
-          <users></users>
+          <Users></Users>
         </div>
 
     </div>

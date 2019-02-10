@@ -4,28 +4,24 @@ window.Vue = require('vue');
 window.axios = require('axios');
 import Vuex from 'vuex';
 import VueRouter from 'vue-router';
-import  {Routes} from  './Routes';
-import   users  from  './components/UsersComponent';
-
-Vue.use(VueRouter);
+window.Vue.use(VueRouter);
 Vue.use(Vuex);
 
+Vue.component('Edit', require('./components/EditComponent.vue').default);
+Vue.component('Create', require('./components/InsertComponent.vue').default);
+Vue.component('Home', require('./components/HomeComponent.vue').default);
+Vue.component('Users', require('./components/UsersComponent.vue').default);
+
+
 const router = new VueRouter({
-    mode: 'history',
-    routes,
+      router,
+    mode: 'history'
+
 
 });
 
-// Vue.component('Users', require('./components/UsersComponent').default);
-
-// Vue.component('Create', require('./components/InsertComponent').default);
-// Vue.component('Edit', require('./components/EditComponent').default);
-
-
 const app = new Vue({
     el: '#app',
-    routes,
-    components:{
-        users
-    }
+    router,
+    components: {Users, Create, Edit,Home}
 });

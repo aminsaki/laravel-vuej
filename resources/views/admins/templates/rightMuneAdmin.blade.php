@@ -54,7 +54,5 @@
     </div>
 </div>
 <script>
-    $('#myCollapsible').collapse({
-        toggle: true
-    })
+
 </script>

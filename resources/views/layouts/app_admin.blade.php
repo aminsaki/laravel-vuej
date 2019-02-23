@@ -17,14 +17,15 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/min.css') }}" rel="stylesheet">
+
+
 
 </head>
 <body>
-<div>
-  <div id="app">
 
       @yield('content')
-</div>
+
     <!-- Scripts -->
 <script src="{{ asset('js/app.js') }}" ></script>
 </body>

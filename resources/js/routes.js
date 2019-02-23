@@ -1,26 +1,6 @@
-export  const  routes = [
-    {
-        path: '/',
-        name:'home',
-        components:'Home'
-    },
+export const  routes = [
 
-    {
-       path: '/admin',
-        name:'/admin',
-        components:'Home'
-    },
-    {
-        path: '/users',
-        name: 'users',
-        components: 'Users'
-    },
-    {
-        path: '/create',
-        components: 'Create'
-    },
-    {
-        path: '/edit',
-        components: 'Edit'
-    },
+    { path: '/users', component: require('./components/UsersComponent.vue') },
+    { path: '/edit', component: require('./components/EditComponent.vue')},
+
 ];

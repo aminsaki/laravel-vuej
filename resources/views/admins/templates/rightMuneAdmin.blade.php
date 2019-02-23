@@ -1,3 +1,4 @@
+<div class="col-md-3 ">
 <div class="accordion" id="accordionExample">
     <div class="card">
         <div class="card-header" id="headingOne">
@@ -11,14 +12,8 @@
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
 
               <ul class="list-group row" style="padding: 0px">
-                  <li class="list-group-item"> <a href="{{url('users')}}">how Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
-                  <li class="list-group-item"> <a href="#">show Users</a> </li>
+                  <li class="list-group-item">    <router-link to="/users" class="nav-link"> List users </router-link> </li>
+
 
               </ul>
 
@@ -53,6 +48,4 @@
         </div>
     </div>
 </div>
-<script>
-
-</script>
+</div>

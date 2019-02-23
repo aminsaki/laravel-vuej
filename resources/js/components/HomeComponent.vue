@@ -1,10 +1,8 @@
 <template>
 
       <div class="content">
+      <p>sdfdsfs</p>
 
-          sdfdsfds
-          <router-link to="/Users">Go to Users</router-link>
-          <router-view></router-view>
 
 
       </div>

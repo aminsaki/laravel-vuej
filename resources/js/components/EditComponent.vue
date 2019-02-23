@@ -65,7 +65,8 @@
 
 
         mounted() {
-            axios.get("/api/user/" + this.id)
+            let id = this.$route.params.id;
+            axios.get("/api/user/" + id)
                 .then(responser => {
                     console.log(responser.data);
                     var user = responser.data;

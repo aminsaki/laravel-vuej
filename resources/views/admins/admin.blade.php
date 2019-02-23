@@ -3,12 +3,9 @@
     <!--*********Header********/-->
     @include('admins.templates.headerTopAdmin')
     <!--*********menune_right********/-->
-    <div class="row" >
-        <div class="col-md-3 myma_right">
+    <div class="row"  id="app">
             @include('admins.templates.rightMuneAdmin')
-        </div>
-        <home></home>
+        <router-view></router-view>
     </div>
-
 
 @endsection

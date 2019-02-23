@@ -1,11 +1,10 @@
 <template>
-    <div class="container">
+    <div class="col-md-9 col-sm-9 col-9 ">
 
         <div class="form-group">
-            <!--<a href="/" class="btn btn-success">Add USERS</a>-->
-            <router-link to="/admin">home</router-link>
 
-            <router-link to="create" class="btn btn-success">Add Users</router-link>
+
+            <router-link to="/create" class="btn btn-success">Add Users</router-link>
 
         </div>
 
@@ -30,7 +29,13 @@
                 <td>{{user.name}}</td>
                 <td>{{user.email}}</td>
                 <td><a href="#" class="btn btn-danger" v-on:click="deleteUser(user.id, index)">Delete</a>
-                    <a :href="'user/'+ user.id +'/edit'" class="btn btn-success">Edit</a>
+                    <!--<router-link to="/create" class="btn btn-success">Add Users</router-link>-->
+
+
+                    <router-link :to="{name: 'edit', params: {id: user.id }}" class="btn btn-xs btn-success">
+                        Edit
+                    </router-link>
+
                 </td>
 
             </tr>
@@ -54,7 +59,7 @@
 </template>
 <script>
     export default {
-         name:  'Users',
+         name:  'users',
         data() {
             return {
                 users: {},
